@@ -1,10 +1,10 @@
 {
-    "name": "Wmbusmeters (W-MBus to MQTT)",
+    "name": "Wmbusmeters (W-MBus to MQTT) (Forked)",
     "version": "1.17.1",
     "slug": "wmbusmeters-ha-addon",
     "description": "Acquire utility meter readings using the wireless mbus protocol (WMBUS)",
     "arch": ["armv7", "aarch64", "amd64"],
-    "url": "https://github.com/wmbusmeters/wmbusmeters-ha-addon",
+    "url": "https://github.com/timeames85/wmbusmeters-ha-addon",
     "image": "wmbusmeters/wmbusmeters-ha-addon-{arch}",
     "panel_icon": "mdi:home-automation",
     "init" : false,
