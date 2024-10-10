@@ -114,5 +114,8 @@ chmod a+x /wmbusmeters/mosquitto_pub.sh
 bashio::log.info "Starting web configuration service."
 python3 /flask/app.py &
 
+bashio::log.info "Activating bias tee ..."
+/usr/bin/rtl_biast -d 0 -b 1
+
 bashio::log.info "Running wmbusmeters ..."
 /wmbusmeters/wmbusmeters --useconfig=$CONFIG_DATA_PATH
