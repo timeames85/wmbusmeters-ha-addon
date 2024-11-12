@@ -5,7 +5,7 @@
     "description": "Acquire utility meter readings using the wireless mbus protocol (WMBUS)",
     "arch": ["armv7", "aarch64", "amd64"],
     "url": "https://github.com/timeames85/wmbusmeters-ha-addon",
-    "image": "wmbusmeters/wmbusmeters-ha-addon-edge-{arch}",
+    "image": "timeames85/wmbusmeters-ha-addon-edge-{arch}",
     "panel_icon": "mdi:home-automation",
     "init" : false,
     "ingress": true,
